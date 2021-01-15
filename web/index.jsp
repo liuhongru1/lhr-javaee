@@ -11,6 +11,12 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+      <form action="first" method="post">
+          用户名：<input type="text" name="username" placeholder="请输入用户名"><br>
+          密码：<input type="password" name="password"><br>
+          <input type="submit" value="提交"><br>
+      </form>
+
+      <a href="first">请点击</a>
   </body>
 </html>
